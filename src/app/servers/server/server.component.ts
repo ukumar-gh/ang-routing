@@ -23,7 +23,6 @@ export class ServerComponent implements OnInit {
           this.server = data['server'];
         }
     );
-    
     // const id = +this.route.snapshot.params['id'];
     // this.server = this.serversService.getServer(id);
     // this.route.params
