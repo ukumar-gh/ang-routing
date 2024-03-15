@@ -36,7 +36,11 @@ import { ServerResolver } from './servers/server/server-resolver.service';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [ServersService, AuthService, AuthGuard, CanDeactivateGuard, ServerResolver],
+  providers: [ServersService,
+    AuthService,
+    AuthGuard,
+    CanDeactivateGuard,
+    ServerResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
